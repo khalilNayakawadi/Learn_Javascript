@@ -1,0 +1,29 @@
+Functions - Functions are block of code which performs specific task whenever it is called.
+
+Fuctions can be of two types
+1.Predefined / Builtin Functions
+2.User Defined Functions
+
+We can use "fuction" keyword to create Functions
+suntax :- 
+
+1.simple fuction
+fuction myFunction()
+{
+    statements
+}
+
+2. Arrow Fuction
+syntax :-
+const functionName = (par1,par2)=>{
+    statements
+}
+
+Advantages :-
+1. Increase code modularity
+2. Reduce redundancy and lines of code
+3. we can use / invoke functions wherever and whenever needed
+4. We use camel case to name the functions
+
+
+*Higher Order Functions :- Functions which takes functions as an argument or returns the functions as an arguments
