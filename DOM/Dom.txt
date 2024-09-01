@@ -1,0 +1,38 @@
+1.Html - Builds the structure of the webpage.
+2.Css  - Designing web page.
+3.Js   - Adding logic to the web page.
+
+Html document consists of two major parts head and body
+
+1.Head - Head tag consists of meta and title tags mainly
+we can link css and bootstrap files in the form of link using link tag.
+
+
+2.Body - Body is the second part of our webpage which is displayed on the viewport.
+we use the html tags to structurize the web pages.
+we can link js file with webpage using script tag just before end of body tag.
+
+
+Inspect Feature of Browser - Inspecting the webpage allows us to check the webpage Html elements,css,Js.
+1.Changes done in the source code file is parmanant Changes.
+2.Changes done using inspect feature is temprory we can try different styling, or various things using inspect feature.
+
+Window Object - Its browser created object with lots of properties and methods.It is global object and known to browser.
+
+DOM : DOM stands for document object model.
+When the web page is loaded browser creates document object model (DOM) of the page.
+
+1.Html page or elements are converted to the object and this object is present inside the Window object.
+
+2.It is tree like structure which is having nodes(window,document,html,head,body).
+
+3.We use document object (DOM) for accessing html elements in javascript. We can do changes in html elements dynamically using Javascript.
+
+
+DOM Manupulations :- 
+1.To manipulate html elements we have to access the elements.
+2.We can provide id,select tagname or use classname to access html elements. we can use various ways or methods to access html elements.
+    - getElementById()
+    - getElementByClassName()
+    - getElementByTagName() and many more.
+    - innerHTMl returns text of element
