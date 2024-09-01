@@ -7,8 +7,8 @@
 // 6.shift()  - delete the elements from the start
 // 7.slice(startind,endind)  - returns elements from startindx to endindx
 // 8.splice(startind,delcount,newele)- delete,add elements to given index
-
-
+// 9.map() - it perform operation on element and returns new array
+// 10.filter - it perform operation and returns filtered array
 let arr = [1,2,3,4];
 console.log(arr);
 arr.push(5,6);
