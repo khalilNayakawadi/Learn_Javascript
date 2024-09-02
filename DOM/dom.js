@@ -25,5 +25,5 @@ div.classList.add("NewClass");
 //creating button to add on the webpage
 let newBtn = document.createElement("button");
 newBtn.innerText ="click me";
-div.append(newBtn)
+div.append(newBtn) // added at the end using prepend we can add element at start.
 
