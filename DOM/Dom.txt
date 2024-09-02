@@ -35,4 +35,7 @@ DOM Manupulations :-
     - getElementById()
     - getElementByClassName()
     - getElementByTagName() and many more.
-    - innerHTMl returns text of element
+    - innerHTMl/innerText returns text of element
+    - classList gives the list of classes given to elements.
+    - getAttribute()/SetAttrbute() used to getting or SetAttrbute to the html element.
+    
