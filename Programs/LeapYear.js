@@ -7,10 +7,8 @@ class LeapYear {
         this.year  = year;
         if((this.year % 4 == 0 && this.year % 400 == 0) || this.year % 100 != 0){
             console.log(year, 'is leap year');
-            
         } else{
             console.log(year, 'is not a leap year');
-            
         }
     }
 
