@@ -13,4 +13,8 @@ console.log($("h2").hasClass("heading")); // true;
 // manipulating text of perticular element
 $("h2").text(" JQuery Tutorial by Khalil")
 
+// adding slide upanimation to h2 element
+$("button").on("click", function(){
+    $("h2").slideToggle(); // hide(), show(), toggle(), slideUp(), slideDown(), slideToggle(), fadeIn(), fadeOut(), fadeToggle() 
+})
 
