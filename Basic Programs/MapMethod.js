@@ -15,9 +15,10 @@ console.log("elements > 30 : " + newArr.sort().toString());
 
 // performing addition operation with each element in array using reduce(accumilator/initialval, currentval),valToInitVal
 let arr2 = [1,2,3,4,5,6,7,8,9,10];
-let sum = arr2.reduce((initVal, currentVal) => initVal+currentVal , 0)
+let sum = arr2.reduce((initVal, currentVal) => initVal+currentVal , 0) // 0 will be assigned to initVal
 console.log(sum);
 
-
+arr2.splice(2,3,4)
+console.log(arr2.toString());
 
 
